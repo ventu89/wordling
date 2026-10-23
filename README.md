@@ -40,3 +40,12 @@ No se puede instalar como PWA directamente abriendo el ZIP o un archivo local: n
 - Precios: 70 monedas para todos salvo Dragón, Siniestro, Hada, Psíquico, Acero y Fantasma (100); estos aparecen al final de la tienda.
 - Las imágenes de Pokémon prueban varias fuentes alternativas.
 - El menú inferior ya no incluye una pestaña independiente de incubadora.
+
+
+## Cambios v0.9
+- El progreso (monedas, palabras, colección y criadero) permanece en `localStorage` por perfil; actualizar archivos en el mismo origen no lo borra.
+- Reconocimiento de voz con resultados intermedios y tolerancia moderada a diferencias de transcripción.
+- Bonus de 20 monedas extra cada cinco aciertos seguidos en práctica normal.
+- Huevos priorizan Pokémon aún no descubiertos; se evitan cartas duplicadas en el criadero y se permite tener Eevee y sus evoluciones como especies separadas.
+- Ficha de Pokémon accesible al tocar una tarjeta del criadero.
+- Botón para salir de una prueba evolutiva.
