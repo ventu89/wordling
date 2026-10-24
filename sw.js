@@ -1,5 +1,5 @@
-const CACHE='wordlings-v10';
-const ART_CACHE='wordlings-v10-art';
+const CACHE='wordlings-v12';
+const ART_CACHE='wordlings-v12-art';
 const CORE=['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png',
 './assets/eggs/normal.png','./assets/eggs/fuego.png','./assets/eggs/agua.png','./assets/eggs/electrico.png','./assets/eggs/planta.png','./assets/eggs/hielo.png','./assets/eggs/lucha.png','./assets/eggs/veneno.png','./assets/eggs/tierra.png','./assets/eggs/volador.png','./assets/eggs/psiquico.png','./assets/eggs/bicho.png','./assets/eggs/roca.png','./assets/eggs/fantasma.png','./assets/eggs/dragon.png','./assets/eggs/acero.png','./assets/eggs/siniestro.png','./assets/eggs/hada.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
