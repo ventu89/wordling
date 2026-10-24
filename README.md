@@ -49,3 +49,11 @@ No se puede instalar como PWA directamente abriendo el ZIP o un archivo local: n
 - Huevos priorizan Pokémon aún no descubiertos; se evitan cartas duplicadas en el criadero y se permite tener Eevee y sus evoluciones como especies separadas.
 - Ficha de Pokémon accesible al tocar una tarjeta del criadero.
 - Botón para salir de una prueba evolutiva.
+
+
+## Cambios v0.10
+- Selector de tolerancia del reconocimiento de voz: Estricto, Normal, Fácil y Muy fácil.
+- Copia de seguridad JSON exportable e importable desde Ajustes y copia de seguridad; incluye perfiles, monedas, palabras, colección, criadero, preferencias y datos Pokémon guardados en localStorage.
+- Vocabulario compartido entre Leo y Paula. Las palabras existentes se sincronizan entre ambos perfiles; las que solo existían en uno se incorporan desactivadas en el otro.
+- Cada perfil puede activar o desactivar palabras independientemente. Borrar una palabra la elimina de ambos perfiles.
+- Caché de la aplicación actualizada a v10 para que se descargue la nueva interfaz.
